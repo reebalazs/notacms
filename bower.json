@@ -1,0 +1,21 @@
+{
+  "name": "szamlasztikus",
+  "version": "0.0.0",
+  "description": "Számlasztikus",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:reebalazs/notacms.git"
+  },
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*",
+    "angular": "*",
+    "angular-ui-router": "*",
+    "pouchdb": "*",
+    "ng-aloha-editor": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "*",
+    "fixtures": "*"
+  }
+}

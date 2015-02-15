@@ -1,0 +1,25 @@
+{
+  "name": "notacms",
+  "version": "0.0.0",
+  "description": "Not A CMS Concept",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:reebalazs/notacms.git"
+  },
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gf-gulp-utils": "git://github.com/reebalazs/gf-gulp-utils.git#master",
+    "debowerify": "*",
+    "browserify-shim": "*"
+  },
+  "browserify": {
+    "transform": [
+      "debowerify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+  }
+}
